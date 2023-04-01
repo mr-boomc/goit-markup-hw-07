@@ -1,0 +1,158 @@
+
+
+@media screen and (min-width:768px), (max-width: 1199px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-menu-open {
+        display: none;
+    }
+    .features-content-icon {
+        display: none;
+    }
+    .work {
+        display: none;
+    }
+
+
+
+    
+/*-------------------------- header tablet --------------------------*/
+
+
+
+.head {
+    /* padding:24px 0 0 0; */
+    
+}
+
+
+
+.nav-list {
+    justify-content: center;
+}
+
+.nav-item {
+    position: relative;
+}
+
+
+.logo {
+    margin-right: 120px;
+}
+
+
+.nav-list {
+    align-items: center;
+}
+
+.contacts-list {
+    display: block;
+}
+
+.contacts-item {
+    font-size: 12px;
+    line-height: 1.16;
+}
+
+.mail {
+    margin-bottom: 6px;
+}
+
+.tel {}
+
+
+/*------------------- tablet modal window ---------------------*/
+
+.modal {
+    width: 408px;
+}
+
+
+
+
+/*------------------- hero tablet studio ---------------------*/
+
+.hero {
+    max-width: 1199px;
+    padding: 112px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/mobile-hero/tablet-bg.jpg);
+    background-color: #2E2F42;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/mobile-hero/tablet-bg@2x.jpg);
+    }
+}
+
+
+.hero-button {
+    margin-top: 40px;
+}
+
+
+/*------------------- tablet features studio ---------------------*/
+
+
+.main-content {
+    padding: 96px 0;
+}
+
+.features {
+    padding-bottom: 96px;
+}
+
+.features-list {
+    flex-wrap: wrap;
+    width: calc((100% - 24px) / 2);
+}
+
+.features-item {
+    margin-bottom: 72px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.features-subtitle {
+    font-weight: 500;
+    width: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}

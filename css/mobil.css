@@ -1,0 +1,324 @@
+@media screen and (max-width: 767px) {
+
+.nav-list {
+    display: none;
+    }
+
+.contacts {
+    display: none;
+    }
+.features-content-icon {
+    display: none;
+}
+.work {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+.mobile-menu-container {
+    position: relative;
+    padding: 80px 40px 40px 40px;
+}
+
+/*-----------------  mobile head  ---------------------*/
+
+    .head {
+        padding: 24px 0;
+    }
+
+    .head-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+/*-----------------  mobile modal menu ---------------------*/
+
+
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-height: 796px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: var(--transition-dur-and-func);
+
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mobile-menu-btn-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #E7E9FC;
+
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.mobile-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+}
+
+.mobile-list>.mobile-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mobile-nav {
+    margin-top: auto;
+}
+
+.mobile-tel {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    color: var(--color-iris);
+}
+
+.mobile-mail {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.mobile-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+
+.mobile-social-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.mobile-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Width: 40px;
+    Height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-iris);
+    transition: background-color var(--transition-dur-and-func);
+}
+
+/*-----------------  mobile hero  ---------------------*/
+
+.hero {
+    max-width: 768px;
+    padding: 112px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/mobile-hero/mobile-bg.jpg);
+    background-color: #2E2F42;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/mobile-hero/mobile-bg@2x-2.jpg);
+    }
+}
+
+.hero-title {
+    width: 320px;
+    height: 80px;
+    font-size: 36px;
+}
+.hero-button {
+    margin-top: 68px;
+}
+
+/*-----------------  mobile modal window  ---------------------*/
+
+.modal {
+    width: 392px;
+}
+
+/*-----------------  mobile features studio  ---------------------*/
+
+.main-content {
+    padding: 96px 0;
+}
+
+.features {
+    padding-bottom: 96px;
+}
+
+.features-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.features-item {
+    width: 396px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.features-subtitle {
+
+    font-weight: 500;
+    width: 396px;
+}
+
+
+/*-----------------  mobile team studio  ---------------------*/
+
+.team-content {
+    padding: 90px 0;
+}
+
+.team-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.team-item {
+    width: 264px;
+}
+
+/*-----------------  mobile customers studio  ---------------------*/
+
+.customers {
+    padding-bottom: 96px;
+}
+
+.customers-list {
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.customers-item {
+    width: calc((100% - 16px) / 2);
+
+}
+
+/*-----------------  mobile footer   ---------------------*/
+.footer {
+    padding: 96px;
+}
+
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.footer-social-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 72px;
+}
+
+/*-----------------  mobile footer form   ---------------------*/
+
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+
+.footer-form-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-form-input {
+    width: 398px;
+}
+
+
+
+}
+
+@media screen and (min-width: 480px) {
+.container {
+        width: 428px;
+    }
+}
+
+
+
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+
+
