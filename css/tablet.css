@@ -1,11 +1,12 @@
 
-
-@media screen and (min-width:768px), (max-width: 1199px){
+@media screen and (min-width: 768px) {
     .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 15px;
+        max-width: 798px;
     }
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1199px)  {
     .mobile-menu {
         display: none;
     }
@@ -19,6 +20,9 @@
         display: none;
     }
 
+    .container-sm {
+        width: 552px;
+    }
 
 
     
@@ -27,7 +31,7 @@
 
 
 .head {
-    /* padding:24px 0 0 0; */
+    padding: 0;
     
 }
 
@@ -39,6 +43,7 @@
 
 .nav-item {
     position: relative;
+    padding-bottom: 24px;
 }
 
 
@@ -79,7 +84,6 @@
 /*------------------- hero tablet studio ---------------------*/
 
 .hero {
-    max-width: 1199px;
     padding: 112px 0;
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -87,9 +91,9 @@
     background-color: #2E2F42;
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+screen and (min-resolution: 192dpi) and (min-width:768px),
+screen and (min-resolution: 2dppx)  and (min-width:768px) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/mobile-hero/tablet-bg@2x.jpg);
@@ -105,54 +109,96 @@ screen and (min-resolution: 2dppx) {
 /*------------------- tablet features studio ---------------------*/
 
 
-.main-content {
-    padding: 96px 0;
-}
-
-.features {
-    padding-bottom: 96px;
-}
 
 .features-list {
     flex-wrap: wrap;
-    width: calc((100% - 24px) / 2);
+    flex-direction: row;
+    gap: 24px;
 }
 
 .features-item {
-    margin-bottom: 72px;
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 64px;
 }
 
 .features-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    margin-bottom: 8px;
 }
 
 .features-subtitle {
     font-weight: 500;
-    width: ;
+    width: 356px;
+}
+
+/*------------------- tablet team studio ---------------------*/
+
+
+.team-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 64px;
 }
 
 
+/*------------------- tablet customers studio ---------------------*/
+
+.customers {
+    padding-bottom: 96px;
+}
+
+.customers-list {
+    gap: 24px;
+}
+
+.customers-item {
+    width: calc((100% - 48px) / 3);
+    margin-bottom: 72px;
+}
 
 
+/*------------------- tablet footer ---------------------*/
 
 
+.footer {
+    padding: 45px 0;
+}
 
+.tablet-footer-content {
+    display: flex;
+    margin-right: auto;
+    gap: 24px;
+}
 
+.footer-logo-content {
+    align-items: start;
+}
 
+.footer-social-content {
+    align-items: start;
+}
 
+.footer-form {
+    align-items: start;
+    margin-right: auto;
+}
 
+.footer-form-input-wrapper {
+    flex-direction: row;
+}
 
-
-
-
+.footer-form-input {
+    width: 264px;
+}
 
 
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-    }
-}

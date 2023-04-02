@@ -2,7 +2,139 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1200px;
+        max-width: 1158px;
     }
 
 
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-open {
+        display: none;
+    }
+
+/*-------------------------- desktop header  --------------------------*/
+
+.head {
+    padding: 0;
+}
+
+
+/*------------------- desktop hero studio ---------------------*/
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
+screen and (min-resolution: 192dpi) and (min-width:1200px),
+screen and (min-resolution: 2dppx) and (min-width:1200px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/mobile-hero/people-office-desk\ 1@2x.jpg);
+    }
+}
+
+
+/*------------------- desktop features studio ---------------------*/
+
+.team {
+    padding: 120px 0;
+}
+.features-list {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-title {
+    font-weight: 500;
+    text-align: start;
+
+}
+
+.features-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    width: 264px;
+}
+
+/*------------------- desktop team studio  ---------------------*/
+
+
+.team-list {
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+/*------------------- desktop customers --------------------*/
+
+.customers {
+    padding-bottom: 120px ;
+}
+
+.customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+/*------------------- desktop footer ---------------------*/
+
+.footer-content {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-logo-content {
+    align-items: start;
+    margin-bottom: 0;
+}
+
+.tablet-footer-content {
+    display: flex;
+    
+}
+.footer-social-content {
+    align-items: start;
+    margin-left: 120px;
+}
+
+
+.footer-social-list {
+
+
+
+
+
+}
+.footer-form {
+    align-items: start;
+}
+
+.footer-form-input-wrapper {
+    flex-direction: row;
+}
+
+.footer-form-input {
+    width: 264px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

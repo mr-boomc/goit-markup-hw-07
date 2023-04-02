@@ -32,10 +32,10 @@ body {
     
 }
 .container {
-    width: 1158px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-    padding: 0 15px;
-    
 }
 .item {
    
@@ -347,7 +347,7 @@ button {
 
 /*------------------- customers --------------------*/
 .customers {
-    padding: 10px 0 120px;
+    padding-bottom: 120px;
 }
 
 .costumers-title {

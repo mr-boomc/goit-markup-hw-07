@@ -11,7 +11,7 @@
         rel="stylesheet">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" >
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/mobil.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/desktop.css">
 
@@ -95,14 +95,14 @@
     </header>
      <main class="main-studio">
         <section class="hero">
-            <div class="container hero-content">
+            <div class="container hero-content ">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                 <button class="hero-button " type="button" data-modal-open>Order Service </button> 
             </div>
         </section>
         <section class="main-content">
             <section class="features">
-                <div class="container ">
+                <div class="container  ">
                     <h2 hidden>features</h2>
                     <ul class="features-list list">
                         <li class="features-item"> 
@@ -150,23 +150,31 @@
                     <h2 class="work-title">What are we doing</h2>
                     <ul class="work-list list">
                         <li class="work-item">
-                            <img src="./images/work/comp.jpg" alt="computer" width="360" >
+                            <img
+                            srcset="./images/work/comp.jpg 1x, ./images/work/comp_x2-2.jpg 2x"
+                             src="./images/work/comp.jpg" alt="computer" width="360" >
                         </li>
                         <li class="work-item">
-                            <img src="./images/work/Rectangle.jpg" alt="message" width="360" >
+                            <img
+                            srcset="./images/work/Rectangle.jpg 1x, ./images/work/Rectangle_x2-2.jpg 2x"
+                             src="./images/work/Rectangle.jpg" alt="message" width="360" >
                         </li>
                         <li class="work-item">
-                            <img src="./images/work/tel.jpg" alt="result" width="360" >
+                            <img
+                            srcset="./images/work/tel_x2-2.jpg 2x, ./images/work/tel.jpg 1x"
+                             src="./images/work/tel.jpg" alt="result" width="360" >
                         </li>
                     </ul>
                 </div>
             </section>
             <section class="team team-content">
-                <div class="container">
+                <div class="container container-sm">
                     <h2 class="team-title">Our Team</h2>
                     <ul class="team-list list">
                         <li class="team-item ">
-                            <img src="./images/team/Mark-Guerrero.jpg" alt="Mark-Guerrero" width="264">
+                            <img
+                            srcset="./images/team/mark_x2-2.jpg 2x, ./images/team/Mark-Guerrero.jpg 1x "
+                             src="./images/team/Mark-Guerrero.jpg" alt="Mark-Guerrero" width="264">
                             <h3 class="team-subtitle">Mark Guerrero</h3>
                             <p class="team-text">Product Designer</p>
                             <ul class="team-social-list">
@@ -201,7 +209,9 @@
                             </ul>
                         </li>
                         <li class="team-item ">
-                            <img src="./images/team/Tom-Ford.jpg" alt="Tom-Ford" width="264">
+                            <img
+                            srcset="./images/team/tom_x2-2.jpg 2x, ./images/team/Tom-Ford.jpg 1x"
+                             src="./images/team/Tom-Ford.jpg" alt="Tom-Ford" width="264">
                             <h3 class="team-subtitle">Tom Ford</h3>
                             <p class="team-text">Frontend Developer</p>
                             <ul class="team-social-list">
@@ -236,7 +246,9 @@
                             </ul>
                         </li>
                         <li class="team-item ">
-                            <img src="./images/team/Camila-Garcia.jpg" alt="Camila-Garcia" width="264">
+                            <img
+                            srcset="./images/team/camila_x2-2.jpg 2x, ./images/team/Camila-Garcia.jpg 1x"
+                             src="./images/team/Camila-Garcia.jpg" alt="Camila-Garcia" width="264">
                             <h3 class="team-subtitle">Camila Garcia</h3>
                             <p class="team-text">Marketing</p>
                             <ul class="team-social-list">
@@ -271,7 +283,9 @@
                             </ul>
                         </li>
                         <li class="team-item ">
-                            <img src="./images/team/Daniel-Wilson.jpg" alt="Daniel-Wilson" width="264">
+                            <img
+                            srcset="./images/team/daniel_x2-2.jpg 2x, ./images/team/Daniel-Wilson.jpg 1x"
+                             src="./images/team/Daniel-Wilson.jpg" alt="Daniel-Wilson" width="264">
                             <h3 class="team-subtitle">Daniel Wilson</h3>
                             <p class="team-text">UI Designer</p>
                             <ul class="team-social-list">
@@ -310,7 +324,7 @@
             </section>
         </section>
         <section class="customers">
-            <div class="container">
+            <div class="container container-sm">
                 <h2 class="costumers-title">Costumers</h2>
                 <ul class="customers-list list">
                     <li class="customers-item ">
@@ -360,44 +374,46 @@
         </section>
     </main>
      <footer class="footer"> 
-            <div class="container footer-content ">
-                <div class="footer-logo-content">
-                    <a class="footer-logo link" href="./index.html"><span class="logo-web"> Web</span>Studio</a>
-                    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
-                        growth solutions.</p>
-                </div>
-                <div class="footer-social-content">
-                    <p class="footer-title">Social media</p>
-                    <ul class="footer-social-list list">
-                        <li>
-                            <a class="footer-social-link link" href="">
-                                <svg class="footer-social-icon" width="24" height="24">
-                                    <use href="./images/sprite.svg#icon-instagram-2"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer-social-link link" href="">
-                                <svg class="footer-social-icon"  width="24" height="24">
-                                    <use href="./images/sprite.svg#icon-twitter-1"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer-social-link link" href="">
-                                <svg  class="footer-social-icon" width="24" height="24">
-                                    <use href="./images/sprite.svg#icon-facebook-1"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer-social-link link" href="">
-                                <svg class="footer-social-icon" width="24" height="24">
-                                    <use href="./images/sprite.svg#icon-linkedin-1"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="container footer-content container-sm">
+                <div class="tablet-footer-content">
+                    <div class="footer-logo-content">
+                        <a class="footer-logo link" href="./index.html"><span class="logo-web"> Web</span>Studio</a>
+                        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
+                            growth solutions.</p>
+                    </div>
+                    <div class="footer-social-content">
+                        <p class="footer-title">Social media</p>
+                        <ul class="footer-social-list list">
+                            <li>
+                                <a class="footer-social-link link" href="">
+                                    <svg class="footer-social-icon" width="24" height="24">
+                                        <use href="./images/sprite.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-social-link link" href="">
+                                    <svg class="footer-social-icon"  width="24" height="24">
+                                        <use href="./images/sprite.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-social-link link" href="">
+                                    <svg  class="footer-social-icon" width="24" height="24">
+                                        <use href="./images/sprite.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-social-link link" href="">
+                                    <svg class="footer-social-icon" width="24" height="24">
+                                        <use href="./images/sprite.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <form class="footer-form">
                     <p class="footer-form-title">Subscribe</p>
