@@ -23,6 +23,23 @@
 
 /*------------------- desktop hero studio ---------------------*/
 
+.main-content {
+    padding: 120px 0 ;
+}
+
+
+
+.hero {
+    padding: 188px 0;
+}
+
+.hero-title {
+    width: 496px;
+    height: 120px;
+    font-size: 56px;
+}
+
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
 screen and (min-resolution: 192dpi) and (min-width:1200px),
 screen and (min-resolution: 2dppx) and (min-width:1200px) {
@@ -35,8 +52,8 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
 
 /*------------------- desktop features studio ---------------------*/
 
-.team {
-    padding: 120px 0;
+.features {
+    padding-bottom: 120px;
 }
 .features-list {
     flex-direction: row;
@@ -51,6 +68,8 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
 
 .features-title {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: start;
 
 }
@@ -59,10 +78,14 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
     font-size: 16px;
     font-weight: 400;
     width: 264px;
+    color: var(--color-navy-blue);
 }
 
 /*------------------- desktop team studio  ---------------------*/
 
+.team-content {
+    padding: 120px 0;
+}
 
 .team-list {
     flex-direction: row;
@@ -101,6 +124,7 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
 .footer-social-content {
     align-items: start;
     margin-left: 120px;
+    margin-bottom: 0;
 }
 
 
